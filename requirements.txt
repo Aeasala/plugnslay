@@ -5,3 +5,8 @@
 	unity, 2x, 3x, 4x
 	(stepped, or linear?)
 5) good declick
+
+
+clamp amps must be rated to 5/100: 50mA sink, and stable
+
+RD901F-40-15F-B10K-00DL1

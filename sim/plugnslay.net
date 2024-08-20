@@ -1,0 +1,49 @@
+* C:\Users\evan6\Documents\Projects\audio\plugnslay\sim\plugnslay.asc
+V1 P5V 0 PULSE(0 5 0 100u 100u 10 10)
+C1 N009 N008 1µ ic=2.5
+V2 N007 0 PULSE(-5 5 0 1n 1n {.5/20} {1/20}) AC 1
+R1 P5V N009 470k
+R2 N009 0 470k
+R3 N008 N007 100
+R4 N008 0 1Meg
+C2 N010 0 2.2n
+R5 N010 N009 1k
+D1 N002 N004 D
+R7 N005 N003 100
+R8 N002 P5V 100
+D3 N005 N004 D
+R9 ref_clamp_h ref_clamp_l 220k
+R10 ref_clamp_l 0 100k
+R11 ref_clamp ref_clamp_h 100k
+D2 N012 N011 D
+R12 N011 0 100
+D4 N012 N005 D
+R6 N006 0 470k
+C3 N006 N005 220n
+C4 N005 0 22n
+D5 N005 ref_clamp D
+D6 0 N005 D
+R14 P5V 0 10k
+R15 P5V int_ref 47k
+R16 int_ref 0 1k
+C8 ref_clamp_l 0 2.2µ
+C6 ref_clamp N001 470n
+R17 N001 0 47k
+C5 int_ref 0 2.2µ
+R13 N003 0 10k
+XU6 N010 N003 P5V 0 N003 ADA4622
+XU1 ref_clamp_h N002 P5V 0 N004 ADA4622
+XU2 ref_clamp_l N011 P5V 0 N012 ADA4622
+XU3 int_ref N001 P5V 0 ref_clamp ADA4622
+D7 N010 P5V D
+D8 0 N010 D
+.model D D
+.lib C:\Users\evan6\AppData\Local\LTspice\lib\cmp\standard.dio
+.tran 0 2 0 startup uic
+* active clamp
+* passive clamp
+* declick
+* pot
+.lib ADA4622.lib
+.backanno
+.end
