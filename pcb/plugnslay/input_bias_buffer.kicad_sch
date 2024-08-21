@@ -2334,7 +2334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "PTV09A-2030F-B503"
+		(property "Part Number" " PTV09A-2020S-B503"
 			(at 204.47 97.79 0)
 			(effects
 				(font
@@ -2343,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.com/ProductDetail/Bourns/PTV09A-2030F-B503?qs=oyIm%2F3giSj7PFvq2byJ%252BHA%3D%3D"
+		(property "Link" "https://www.mouser.com/ProductDetail/652-PTV09A2020SB503"
 			(at 204.47 97.79 0)
 			(effects
 				(font

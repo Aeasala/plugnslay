@@ -45,15 +45,15 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
+			(viasonmask yes)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -67,16 +67,16 @@
 			(psnegative no)
 			(psa4output no)
 			(plotreference yes)
-			(plotvalue yes)
+			(plotvalue no)
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gbrdrill/")
 		)
 	)
 	(net 0 "")
@@ -1284,7 +1284,7 @@
 				)
 			)
 		)
-		(property "Link" "https://mou.sr/46W6mYv"
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C1206C223K3RACTU?qs=nanIO8yDHNwBF9gQ989a6w%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6686,7 +6686,7 @@
 				)
 			)
 		)
-		(property "Part Number" "PTV09A-2030F-B503"
+		(property "Part Number" " PTV09A-2020S-B503"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6699,7 +6699,7 @@
 				)
 			)
 		)
-		(property "Link" "https://www.mouser.com/ProductDetail/Bourns/PTV09A-2030F-B503?qs=oyIm%2F3giSj7PFvq2byJ%252BHA%3D%3D"
+		(property "Link" "https://www.mouser.com/ProductDetail/652-PTV09A2020SB503"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8205,7 +8205,7 @@
 				)
 			)
 		)
-		(property "Link" "https://mou.sr/46W6mYv"
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C1206C223K3RACTU?qs=nanIO8yDHNwBF9gQ989a6w%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11017,7 +11017,7 @@
 				)
 			)
 		)
-		(property "Link" "https://mou.sr/46W6mYv"
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C1206C223K3RACTU?qs=nanIO8yDHNwBF9gQ989a6w%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
