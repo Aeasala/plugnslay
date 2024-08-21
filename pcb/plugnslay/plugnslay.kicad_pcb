@@ -11849,8 +11849,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "↓ POWER"
-		(at 116.078 87.376 0)
+	(gr_text "← POWER"
+		(at 189.484 121.92 0)
 		(layer "F.SilkS")
 		(uuid "8e216edd-80be-42b3-8436-27891dd8dc06")
 		(effects
